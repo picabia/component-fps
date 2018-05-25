@@ -1,6 +1,6 @@
 {
   "name": "@picabia/component-fps",
-  "version": "0.2.1-pre",
+  "version": "0.2.1",
   "description": "Picabia Component - FPS counter and display, renders to Dom/Canvas",
   "license": "MIT",
   "homepage": "https://github.com/picabia/component-fps",
