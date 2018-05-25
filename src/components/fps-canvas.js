@@ -31,7 +31,7 @@ class FpsCanvas extends View {
   // -- view
 
   _postResize () {
-    this._fontSize = 30;
+    this._fontSize = 20;
   }
 
   render (renderer) {
@@ -47,8 +47,7 @@ class FpsCanvas extends View {
 
     const text = this._fps.toFixed(1);
 
-    // @todo viewport.scaleText(FONT_SIZE, MIN_FONT_PIXELS);
-    renderer.setFont(this._fontSize + 'px pixel');
+    renderer.setFont(this._fontSize, 'Arial');
     renderer.setTextAlign('left');
     renderer.setTextBaseline('top');
 
